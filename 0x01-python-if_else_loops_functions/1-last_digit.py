@@ -5,9 +5,9 @@ last = abs(number) % 10
 if number < 10:
     last = last * -1
 if last > 5:
-    print('Last digit of {} is {} and is grater than 5'. format(number, last))
+    print('Last digit of {} is {} and is greater than 5'. format(number, last))
 elif last < 6 and last != 0:
-    str = 'Last digit of {} is less than 6 and not 0'
+    str = 'Last digit of {} is {} is less than 6 and not 0'
     print(str. format(number, last))
 else:
     print('Last digit of {} is {} and 0'. format(number, last))
