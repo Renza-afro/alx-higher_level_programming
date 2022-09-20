@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-for x in range(97, 123):
-    if x != 'q' and x != 'e':
-        print("{:c}".format(x), end='')
+x = 0
+while ix< 26: 
+    if x != 4 and x != 16:   
+        print('{:c}'. format(x + 97), end='')
+    x = x + 1
